@@ -1,3 +1,4 @@
+
 git config --list -> mostra todas as configurações do meu GIT.
 git remote add origin https://github.com/RafaelT-DS/livro-receitas.git -> cadastrar o repositório remoto.
 git remote -v -> irá listar os repositórios remotos cadastrados.
@@ -121,3 +122,8 @@ CRIANDO SEU PRIMEIRO REPOSISÓRIO NO GITHUB PARA COMPARTILHAR SEU PROGRESSO
 - Para começar a mexer no repositório na máquina local, basta ir em 'code' e copiar o link dele.
 - Com o git instalado no computador, basta acessar a pasta local onde estarão os projetos, clicar com o botão direito e ir em GIT BASH HERE.
 - Digitar GIT CLONE e a url do repositório. Ex: GIT CLONE https://github.com/RafaelT-DS/dio-desafio-github-primeiro-repositorio.git
+- Digitar GIT STATUS para ver o que precisa ser enviado.
+- Digitar GIT ADD .
+- git commit -m "Inclusão das anotações do Bootcamp Java Everis"
+- git push origin main 
+- Após esses passos, o arquivo já estará no servidor remoto.
