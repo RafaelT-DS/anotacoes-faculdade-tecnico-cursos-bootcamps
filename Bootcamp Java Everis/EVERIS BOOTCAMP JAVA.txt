@@ -1,4 +1,3 @@
-
 git config --list -> mostra todas as configurações do meu GIT.
 git remote add origin https://github.com/RafaelT-DS/livro-receitas.git -> cadastrar o repositório remoto.
 git remote -v -> irá listar os repositórios remotos cadastrados.
@@ -111,6 +110,7 @@ Codigo			ClientesProdutos		Codigo
 			CodigoProduto
 
 ******************************************************
+
 CRIANDO SEU PRIMEIRO REPOSISÓRIO NO GITHUB PARA COMPARTILHAR SEU PROGRESSO
 
 - Criar um novo repositório no github https://github.com/
@@ -127,3 +127,38 @@ CRIANDO SEU PRIMEIRO REPOSISÓRIO NO GITHUB PARA COMPARTILHAR SEU PROGRESSO
 - git commit -m "Inclusão das anotações do Bootcamp Java Everis"
 - git push origin main 
 - Após esses passos, o arquivo já estará no servidor remoto.
+******************************************************
+
+DOMINANDO IDEs JAVA
+
+Diferentes das linguagens de programação compiladas, (a compilaação do código se dá ainda em tempo de desenvolvimento) a linguagem Java é compilada para um bytecode que é interpretado por uma máquina virtual (JVM).
+
+A linguagem de programação Java é a linguagem convencional plataforma Java, mas não é a sua única linguagem.
+
+JAVA SE -> É a base da plataforma e trás algumas classes comuns entre as plataformas.
+JAVA EE -> Desenvolvimento WEB.
+JAVA ME -> Dispositivos móveis e embarcados, que servem para uma função só, como calculadoras, controles remotos, urnas eletrônicas, etc.
+
+Fases da execução Java
+
+1 - Escrevemos o seu código-fonte (arquivo com extensão .java)
+2 - Utilizamos o JDK para compilar o seu código-fonte e gerar o arquivo bytecode (arquivo com a extensão .class)
+3 - Para executar o seu programa, a JVM lê o arquivo compilado (.class) e as bibliotecas padrões do Java que estão no JRE.
+
+JDK -> Java Development Kit -> é o Kit de Desenvolvimento Java responsável por compilar código-fonte (.java) em bytecode (.class).
+JVM -> Java Virtual Machine -> é a Maquina Virtual do Java responsável por executar o bytecode (.class)
+JRE -> Java Runtime Environment -> Ambiente de execução do Java que fornece as bibliotecas padrões do Java para o JDK compilar o seu código e para a JVM executar o seu programa.
+
+Os lançamentos das versões OpenJDK LTS (suporte de longo prazo) acontecem pelo menos a cada quatro anos.
+
+IDE -> Ou ambiente de desenvolvimento integrado, é um software que combina ferramentas comuns de desenvolvimento em uma única interface gráfica do usuário (GUI), facilitando o desenvolvimento de aplicações.
+
+O Java possui um conjunto de ferramentas para se desenvolver programas baseados nele, que são conhecidos como Java Development Kit ou JDK, sendo este o ambiente voltado para os desenvolvedores.
+
+A JDK faz parte do funcionamento das IDE's - programas de desenvolvimento como IntelliJ, Eclipse, Netbeans, entre outros.
+
+ECLIPSE - é uma IDE para desenvolvimento JAVA, porém suporta várias outras linguagens. Ele foi feito em JAVA e segue o modelo open source de desenvolvimento de software.
+
+
+
+
