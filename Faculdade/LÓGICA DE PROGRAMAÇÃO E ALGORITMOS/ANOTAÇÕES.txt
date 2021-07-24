@@ -1,0 +1,57 @@
+AULA 1
+
+Programar exige prática diária de resolução de exercícios.
+
+O QUE É LÓGICA?
+
+Vem do grego 'logos' que significa linguagem racional. Na computação: Maneira pela qual instruções, assertivas e pressupostos são organizados num algoritmo para viabilizar a implantação de um programa. 
+
+ALGORITMO
+
+É dado como uma sequência de passos a serem realizados para que determinada tarefa seja concluída, ou um objetivo atingido.
+
+A MÁQUINA DE VON NEUMANN
+
+UNIDADE DE LÓGICA E ARITMÉTICA -> unidade que realiza todos os cálculos lógicos e aritméticos do computador.
+UNIDADE DE CONTROLE -> serve para dizer qual é a próxima instrução ou cálculo que será realizada pela unidade de lógica e aritmética.
+
+BIT
+
+Todo e qualquer computador é binário. 
+BINARY DIGIT (bit) - a menor unidade de armazenamento de dados.
+
+DESCRIÇÃO NARRATIVA
+
+Linguagem natural; não utilizada em algoritmos computacionais. Ex:
+1 - Ler dois valores (x e y)
+2 - Verificar se x e y são iguais, e assim por diante.
+
+PSEUDOCÓDIGO
+
+Português estruturado; representação mais próxima de um programa computacional, mas sem se preocupar com a linguagem de programação adotada; regras definidas; linguagem genérica.
+
+FLUXOGRAMA
+
+Representação gráfica de um algoritmo.
+
+LINGUAGENS DE PROGRAMAÇÃO
+
+Uma linguagem de programação é, portanto, um conjunto de regras com palavras-chaves, símbolos e sequências específicas para escrever algoritmos. Resultam em instruções compreendidas pelo computador e não geram ambiguidades.
+
+COMPILADOR
+
+Converte a linguagem de programação na linguagem da máquina, realizando assim essa comunicação humano-máquina. Transforma um código-fote em um arquivo binário. O código-fonte é perdido nesse processo.
+
+INTERPRETADOR
+
+Nunca perde o seu código-fonte, ele está sempre presente. O código não é convertido de uma vez só, mas, sim, executado instrução por instrução à medida que o programa vai requisitando.
+
+PYTHON
+
+Linguagem de propósito geral; vasta quantidade de biblioteca existentes; linguagens simples, intuitiva. Ótima para iniciantes; multiplataforma; comunidade ativa e atualizações constantes.
+
+AULA PRÁTICA 1
+
+PYCHARM -> Ambiente de Desenvolvimento Integrado (Integrated Development Enviroment [IDE])
+
+PRATICAR MUITO; NÃO TENHA PRESSA; NUNCA ACHE QUE SABE TUDO.

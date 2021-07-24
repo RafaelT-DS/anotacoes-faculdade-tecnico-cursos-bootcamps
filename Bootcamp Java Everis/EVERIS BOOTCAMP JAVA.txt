@@ -158,7 +158,76 @@ O Java possui um conjunto de ferramentas para se desenvolver programas baseados 
 A JDK faz parte do funcionamento das IDE's - programas de desenvolvimento como IntelliJ, Eclipse, Netbeans, entre outros.
 
 ECLIPSE - é uma IDE para desenvolvimento JAVA, porém suporta várias outras linguagens. Ele foi feito em JAVA e segue o modelo open source de desenvolvimento de software.
+******************************************************
+
+ENVIAR UM PROJETO PRO GITHUB DIRETO DO ECLIPSE 
+
+- Clicar com o botão direito em cima do projeto -> Team -> Share Project -> Selecionar ou criar o repositório local e clicar em Finish -> Ir novamente em Team -> Commit 
+- Existe a opção de ir no modo/perspectiva GIT que fica no canto superior direito do eclipse -> Na aba GIT STAGING é possível verificar os arquivos que estão em modo UNSTAGED e ARRASTÁ-LOS para STAGED  -> Em Push Branch Master, iremos definir onde irá subir o repositório -> Colar o link do repositório no github e colar em URL.
+
+******************************************************
+
+DESENVOLVIMENTO BÁSICO EM JAVA
+
+Diferente de outras linguagens de programação, que são compiladas para código nativo, o Java é compilado para um bytecode que é interpretado por uma máquina virtual.
+
+COMPILADOR -> é um programa que , a partir de um código fonte, cria um programa semanticamente equivalente, porém escrito em outra linguagem, código objeto. Um compilador traduz um programa de uma lingagem textual para uma linguagem de máquima, específica para um processador e sistema operacional. O nome compilador é usado principalmente para os programas que traduzem o código fonte de uma linguagem de programação de alto nível para uma linguagem de programação de baixo nível (por exmplo, Assembly ou código de máquina).
+
+BYTECODE -> É o código originado da compilação de programas Java. É o programa interpretado e executado pela Máquina virtual Java, JVM.
+
+JVM -> É uma máquina virtual que executa programas Java, executando os bytecodes em linguagem de máquina para cada sistema operacional. Com o Java, compilamos para a JVM, o bytecode será executado pela máquina virtual, e não diretamente pelo SO, assim, o software escrito em Java possui portabilidade para qualquer sistema operacional, porém, cada JVM deve ser construída para um SO específico.
+
+JRE -> Java Runtime Environment, ou Ambiente de Execução do Java, é composto pela Java Virtual Machine (JVM), bibliotecas e APIs da linguagem Java e outros componentes para suporte da platafornma Java. Ele representa a parte responsável pela execução do software Java.
+
+JDK -> Java Developmente Kit (JDK), Kit de Desenvolvimento Java, é um conjunto de utilitários que permitem criar software para a plataforma Java. É composto pelo compilador Java, bibliotecas da linguagem, ferramentas e a JRE.
+
+JAVA SE -> Java Standart Edition, é a distribuição mínima da plataforma de desenvolvimentos de aplicações Java. OpenJDK é a implementação de referências opensource da Plataforma Java, Java SE, que ainda é mantida pela Oracle.
+
+JAVA EE -> Java Enterprise Edition, é uma extensão do Java SE que possui suporte a desenvolvimento de sistemas corporativos. Além do mínimo da plataforma, o Java EE possui diversas especificações de partes da infra estrutura de aplicações, como acesso a banco de dados, mensageria, serviços web, parser de arquivos e outras. Servidores de aplicações Java EE, sabem seguir essas especificações e implementar os recursos para os usuários.
+
+JAKARTE EE -> Com a falta de investimentos da Oracle no Java, ela cedeu todo o código, implementações e especificações do Java EE para o Eclipse Foundation, mas como o nome Java EE é uma marca registrada, foi escolhido o nome Jakarta EE. Agora a evolução das especificações e padrões do Java será feito sob o nome Jakarta EE, com compatibilidade com o Java EE.
+
+- Todo programa Java precisa ter uma class
+- Toda class precisa ter um nome
+- Por convenção, as classes começam sempre com a letra maiúscula e se for um nome composto, o outro nome também fica em maiúsculo
+
+Atributos -> 
+		public class SuperUsuario {
+	
+			private String login;
+			private String senha;
+			String nome; // 'login', 'senha' e 'nome' são características dessa classe SuperUsuario, ou seja, são atributos.
+
+			public SuperUsuario(final String login, final String senha){ // Essa classe tem construtores, o construtor da classe é um método particular que // leva o mesmo nome da classe e fala como que eu vou construir essa classe quando eu for instanciar um objeto dela. Nesse caso temos um construtor 'SuperUsuario', que // tem dois parâmetros 'login' e 'senha'.
+				this.login = login;
+				this.senha = senha;
+			}
+		
+			public String getLogin () 
+
+				{ return login; }
+			
+			protected String getSenha() 
+
+				{ return senha; }
+}
 
 
+******************************************************
+
+TIPOS PRIMITIVOS, WRAPPERS, NÃO PRIMITIVOS E TIPAGEM FORTE E ESTÁTICA
+
+PRIMITIVO -> nunca pode ser nulo. Possum valores default.
+
+BYTE -> -128 a 127 (8 bits). Números fora desse range não são aceitos pelo BYTE.
+CHAR -> Alfanumérico (16 bits). Apenas um caractere. Ex: A, 15, AA não é aceito.
+SHORT -> -32768 a 32767. Não é alfanumérico (16 bits).
+INT -> -2147483648 a 2147483647 (32 bits). Números inteiros.
+LONG -> -9223372036854775808L a 9223372036854775807L (64 bits). É necessário sempre colocar o L no final, para que o compilador saiba que é um LONG.
 
 
+WRAPPERS -> São objetos que representam os primitivos. Auto-boxing (quando passa o valor puro para um tipo de objeto) e Unboxing (quando se contrói o objeto só que que atibui a um tipo primitivo).
+
+NÃO PRIMITIVO -> STRING, NUMBER, OBJECT E QUAISQUER OUTROS OBJETOS.
+
+TIPAGEM ESTÁTICA -> O tipo da variável é verificado em tempo de compilação. Por exemplo: o compilador já avisa e não deixar executar o programa quando houver uma varíavel STRING recebendo um valor INT.
